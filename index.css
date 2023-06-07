@@ -1,0 +1,48 @@
+body {
+height: 385px;
+width: 575px;
+left: -1996px;
+top: -1135px;
+border-radius: 0px;
+background-color: #FFFF8F;
+margin: auto;
+}
+
+#lakersLogo{
+    width: 200px;
+    margin-left: 45px;
+
+}
+
+#bostinLogo{
+    width: 100px;
+    margin-left: 120px;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+
+.scoreText{
+    max-width: 155px;
+    max-height: 120px;
+    background-color: black;
+    color: #CF9FFF;
+    font-size: 80px;
+    text-align: center;
+
+   
+}
+
+.scoreBoardButton{
+    border: 2px solid #CF9FFF;
+    border-radius: 45%;
+    background-image: linear-gradient(#FFFF8F,#CF9FFF);
+    font-size: 20px
+}

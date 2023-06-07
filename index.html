@@ -1,0 +1,54 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      <img src = "images/LosAngelesLakersLogo.png" id = "lakersLogo">
+      <img src = "images/BostonCelticsLogo.png" id = "bostinLogo">
+        
+       
+   
+        <div class="container">
+            <div>
+
+                <h1> Home </h1>
+                <h1 class = "scoreText" id = "homeScoreText"> 0 </h1>
+                <button 
+                    onclick = "homeAddOne()" 
+                    class = "scoreBoardButton" 
+                    id = "homeButton1"> +1 </button>
+                <button 
+                    onclick = "homeAddTwo()" 
+                    class = "scoreBoardButton"  
+                    id = "homeButton2"> +2 </button>
+                <button 
+                    onclick = "homeAddThree()" 
+                    class = "scoreBoardButton" 
+                    id = "homeButton3"> +3
+                     </button>
+            </div>
+            <div>
+                 <h1> Guest </h1>
+                <h1 class = "scoreText" id = "guestScoreText"> 0 </h1>
+                <button 
+                        onclick = "guestAddOne()" 
+                        class = "scoreBoardButton"
+                        id = "guestButtonAdd1"> 
+                        +1 
+                </button>
+                <button 
+                        onclick = "guestAddTwo()"   
+                        class = "scoreBoardButton"
+                        id = "guestButtonAdd2"
+                > +2
+                 </button>
+                <button 
+                        onclick = "guestAddThree()" 
+                        class = "scoreBoardButton"
+                        id = "guestButtonAdd3"> +3 
+                </button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
